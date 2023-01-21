@@ -1,5 +1,7 @@
+<%@page import="p4n.Student"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +9,12 @@
 <title>Insert title here</title>
 </head>
 <body>
+<jsp:include page="header.html"></jsp:include>
+
 	<%= new java.util.Date()%>
+	
+	<%= new Student() %>
+	
 	<br>
 	<h1><%=  233+90 %></h1>
 	
